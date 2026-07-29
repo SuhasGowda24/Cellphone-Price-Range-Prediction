@@ -151,43 +151,6 @@ This model achieved the highest overall performance and was selected as the fina
 
 ---
 
-## 📁 Repository Structure
-
-```
-Mobile-Phone-Price-Range-Prediction/
-│
-├── datasets_11167_15520_train.csv
-├── Mobile_Phone_Price_Range_Prediction.ipynb
-├── README.md
-├── requirements.txt
-└── images/
-```
-
----
-
-## 🚀 How to Run
-
-1. Clone this repository
-
-```bash
-git clone https://github.com/your-username/Mobile-Phone-Price-Range-Prediction.git
-```
-
-2. Install the required libraries
-
-```bash
-pip install -r requirements.txt
-```
-
-3. Open the Jupyter Notebook
-
-```bash
-jupyter notebook
-```
-
-4. Run all notebook cells.
-
----
 
 ## 📌 Results
 
