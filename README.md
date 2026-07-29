@@ -99,9 +99,10 @@ The dataset contains **2,000 mobile phone records** with **20 input features** a
 
 ## 🤖 Machine Learning Models
 
-The following classification algorithms were implemented:
+The following classification algorithms were implemented and evaluated:
 
 - Logistic Regression
+- Gaussian Naive Bayes
 - K-Nearest Neighbors (KNN)
 - Decision Tree
 - Random Forest
@@ -124,10 +125,11 @@ To improve model performance, **GridSearchCV with 5-Fold Cross Validation** was 
 | Model | Accuracy |
 |--------|---------:|
 | Logistic Regression | 96.50% |
-| KNN | 58.75% |
+| Gaussian Naive Bayes | **81.00%** |
+| K-Nearest Neighbors (KNN) | 58.75% |
 | Decision Tree | 83.00% |
 | Random Forest | 88.00% |
-| SVM | 90.00% |
+| Support Vector Machine (SVM) | 90.00% |
 | XGBoost | 94.00% |
 | **Tuned Logistic Regression** | **98.25%** |
 
@@ -194,8 +196,3 @@ jupyter notebook
 - Improved performance using GridSearchCV.
 - Achieved **98.25% test accuracy** using Tuned Logistic Regression.
 
----
-
-## 📜 License
-
-This project is developed for educational and portfolio purposes.
